@@ -1,0 +1,274 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* regole base tutto il contenuto della pagina */
+body {
+font-family: 'Noto Sans', sans-serif;
+color: grey;
+font-size: 14px;
+}
+li{
+list-style: none;
+}
+a{
+text-decoration: none;
+color: grey;
+}
+.bold {
+font-weight: bold;
+}
+.text_center{
+text-align: center;
+}
+.clearfix {
+content: "";
+display: table;
+clear: both;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  /* height: 100vh; */
+  border: 1px solid pink;
+}
+.padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/* Fine regole base tutto il contenuto della pagina */
+header{
+  width: 100%;
+  /* height: 20vh; */
+}
+header > div {
+  float: left;
+  height: 50%;
+  width: 50%;
+  line-height: 5vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  /* border: 1px solid black; */
+}
+header div ul li {
+  float: left;
+}
+header div .left_align li {
+  margin-right: 5%;
+}
+header div .right_align li {
+  float: right;
+  margin-left: 5%;
+}
+/* fine regole base per contenuti dentro header */
+
+.button {
+  display: inline-block;
+  color: salmon;
+  border: 1px solid salmon;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button_big {
+  display: inline-block;
+  color: salmon;
+  border: 1px solid salmon;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding: 10px 5px 10px 5px; */
+}
+.orange {
+  background-color: salmon;
+  color: white;
+}
+#logohubspot {
+  transform: translateY(+25%);
+}
+
+
+/* Inizio Jumbotron */
+.jumbotron {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 1520px;
+  background-position: 90% 70%;
+}
+.jumbotron p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.jumbotron a {
+  color: white;
+}
+.jumbotron_title {
+  position: absolute;
+  width: 40%;
+  /* height: 30vh; */
+  bottom: 20vh;
+}
+.jumbotron_title h1 {
+  font-size: 300%;
+  /* color: grey; */
+  /* margin-bottom: 5%; */
+}
+/* Fine Jumbotron */
+/* Inizio Jumbotron interlinea */
+.jumbotron_interline {
+  width: 100%;
+  height: 10vh;
+  border-top: 5px solid grey;
+  border-bottom: 5px solid grey;
+  background-color: rgb(50, 255, 187);
+}
+/* Fine Jumbotron interlinea */
+
+
+/* Regole generali per core, core_2 e core_3 */
+.core i {
+  color: white;
+  background-color: salmon;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+   /* regole generali core  */
+
+/* Inizio del core */
+ .background {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.core {
+  width: 100%;
+  background-color: rgb(184 ,255 ,251);
+  padding-top: 10vh;
+}
+.core p{
+margin-top:2%;
+margin-bottom: 2%;
+}
+.core h2 {
+margin-bottom: 2%;
+}
+.core > div {
+float: left;
+}
+/* fine regole generali core  */
+ .background_rubik{
+display: inline-block;
+width: 250px ;
+height: 200px;
+background-image: url(../img/rubik.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+.rubik {
+  text-align: center;
+  width: 100%;
+ padding-top: 5vh;
+ padding-bottom: 5vh;
+}
+.free{
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.marketing a, .sales a, .services a, .free a {
+color: white;
+}
+
+.marketing, .sales, .services {
+width: 30%;
+padding-top: 2%;
+padding-bottom:2%;
+}
+.sales {
+margin-left: 5%;
+margin-right: 5%;
+}
+.free  > div {
+width: 50%;
+float: left;
+}
+.bg_free {
+display: block;
+width: 200px;
+height: 150px;
+background-image: url(../img/libro.svg);
+}
+.free_left > div {
+margin-left: 30%;
+}
+#butun {
+margin-left: 35%;
+}
+.free_content p {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.free_content ul li {
+display: inline-block;
+margin-right: 5%;
+}
+
+
+/* fine sezione freee */
+/* inizio sezioni verticali cetropagina */
+.free,  .marketing, .sales, .services {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 8px;color: rgba(0,0,0,.3);
+  }
+  .marketing, .sales, .services {
+  margin-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  }
+
+  .marketing p, .sales p, .services p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+  .marketing ul li, .sales ul li, .services ul li {
+   margin-top:2%;
+   margin-bottom: 2%;
+  }
+
+.bg_three {
+  margin-left: 50%;
+ transform:translateX(-50%);
+  width: 200px;
+  height: 200px;
+}
+ .bg_marketing {
+background-image: url(../img/marketing.svg);
+}
+.bg_sales{
+background-image: url(../img/sales.svg);
+}
+.bg_services {
+background-image: url(../img/service.svg);
+}
+.subbuton{
+margin-left: 25%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+/* fine sezioni verticali centro pagina */
+
+/* Fine del core */
