@@ -94,8 +94,6 @@ color: white;
 #logohubspot {
   transform: translateY(+25%);
 }
-
-
 /* Inizio Jumbotron */
 .jumbotron {
   position: relative;
@@ -135,8 +133,6 @@ color: white;
   background-color: rgb(50, 255, 187);
 }
 /* Fine Jumbotron interlinea */
-
-
 /* Regole generali per core, core_2 e core_3 */
 .core i {
   color: white;
@@ -145,9 +141,6 @@ color: white;
   padding: 1px;
 }
 
-   /* regole generali core  */
-
-/* Inizio del core */
  .background {
   display: inline-block;
   background-size: contain;
@@ -193,7 +186,6 @@ background-position: center;
 .marketing a, .sales a, .services a, .free a {
 color: white;
 }
-
 .marketing, .sales, .services {
 width: 30%;
 padding-top: 2%;
@@ -227,9 +219,6 @@ margin-bottom: 5%;
 display: inline-block;
 margin-right: 5%;
 }
-
-
-/* fine sezione freee */
 /* inizio sezioni verticali cetropagina */
 .free,  .marketing, .sales, .services {
   background-color: white;
@@ -241,7 +230,6 @@ margin-right: 5%;
   padding-left: 2%;
   padding-right: 2%;
   }
-
   .marketing p, .sales p, .services p {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -250,7 +238,6 @@ margin-right: 5%;
    margin-top:2%;
    margin-bottom: 2%;
   }
-
 .bg_three {
   margin-left: 50%;
  transform:translateX(-50%);
@@ -271,10 +258,10 @@ margin-left: 25%;
 margin-top: 2%;
 margin-bottom: 2%;
 }
-
 /* fine sezioni verticali centro pagina */
 /* Fine del core */
 .statistiche {
+
 height:80vh;
 padding-top: 3%;
 padding-bottom: 3%;
@@ -291,7 +278,13 @@ width: 25%;
 float: left;
 padding-top: 5%;
 padding-bottom: 5%;
- border:  1px solid white;
+}
+  .box_uno, .box_due, .box_tre,
+  .box_cinque, .box_sei, .box_sette {
+  border-right: 1px solid white;
+}
+.box_cinque, .box_sei, .box_sette, .box_otto {
+border-top:  1px solid white;
 }
 .content_img {
   width: 100%;
@@ -326,7 +319,6 @@ background-image: url(../img/nuvola.svg);
 background-image: url(../img/iscritti.svg);
 }
 /* fine sezione statitstiche  */
-
 /* inizio sponsor  */
 .sponsor {
 margin-top: 3%;
@@ -406,7 +398,6 @@ background-repeat: no-repeat;
 background-position: center;
 }
 /* fine sezione sponsor  */
-
 .listalink {
 background-color: #2d3e50;
 width: 100%;
@@ -451,8 +442,6 @@ text-decoration: underline;
 padding-left: 10%;
 margin-top: 5%;
 }
-/* fina list LINK */
-/* inizio social  */
 .social {
 background-color: #2d3e50;
 width: 100%;
